@@ -3,10 +3,10 @@ from .models import *
 # Register your models here.
 
 class MainteananceAdmin(admin.ModelAdmin):
-    list_display = ["mainteanance", "description", "status", "vendor", "property" ]
+    list_display = ["mainteanance", "description", "status", "property" ]
 
-    def vendor(self, obj):
-        return obj.vendors.vendor_name
+    # def vendor(self, obj):
+    #     return obj.vendors.vendor_name
     
     def property(self, obj):
         return obj.propertys.property_name

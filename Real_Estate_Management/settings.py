@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-uq4gu)9bn&7$hpe*s=j*7g22o43laja@u!=bhqz-t@u8ui9-m^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["real-estate-management-database-production.up.railway.app"]
+ALLOWED_HOSTS = ["real-estate-management-database-production.up.railway.app", "127.0.0.1"]
 
 
 # Application definition
